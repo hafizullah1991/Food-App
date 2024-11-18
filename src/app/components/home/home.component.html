@@ -1,0 +1,11 @@
+<div class="menu-items">
+  @for(item of foods(); track item){
+      <div class="menu-item">
+          <div class="colorGroup">{{item.colorGroup}}</div>
+          <div class="description">{{item.description}}</div>
+          <div class="flavorName">{{item.flavorName}}</div>
+          <div class="flavorName">{{item.ingredients}}</div>
+      </div>
+  }
+ 
+</div>
